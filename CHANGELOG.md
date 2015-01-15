@@ -1,4 +1,6 @@
 # master
+
+# 1.2.1
   * Fix character encoding issues in documentation (https://github.com/mojolingo/brightbox-ruby-cookbook/pull/3)
 
 # 1.2.0
