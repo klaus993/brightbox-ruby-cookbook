@@ -1,5 +1,8 @@
 # master
 
+# 1.2.1
+  * Fix character encoding issues in documentation (https://github.com/mojolingo/brightbox-ruby-cookbook/pull/3)
+
 # 1.2.0
   * Default to not installing ruby_switch on 14.x and later since it has been removed. See further details:
     * http://askubuntu.com/questions/452243/what-versions-of-ruby-are-supported-in-14-04/457699#457699
