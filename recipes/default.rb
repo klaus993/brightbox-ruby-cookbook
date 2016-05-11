@@ -45,8 +45,10 @@ node['brightbox-ruby']['gems'].each do |gem|
   end
 end
 
-# Regenerate the binstups for rubygems-bundler.
-execute "gem regenerate_binstubs" do
-  action :nothing
-  subscribes :run, resources('gem_package[rubygems-bundler]')
+if node['brightbox-ruby']['gems'].include? 'rubygems-bundler'
+  # Regenerate the binstups for rubygems-bundler.
+  execute "gem regenerate_binstubs" do
+    action :nothing
+    subscribes :run, resources('gem_package[rubygems-bundler]')
+  end
 end
