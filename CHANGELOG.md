@@ -1,4 +1,6 @@
 # master
+
+# 1.2.2
   * Permit removing `rubygems-bundler` from list of gems to install without breaking
 
 # 1.2.1
