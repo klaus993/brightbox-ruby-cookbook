@@ -1,4 +1,5 @@
 # master
+  * Permit removing `rubygems-bundler` from list of gems to install without breaking
 
 # 1.2.1
   * Fix character encoding issues in documentation (https://github.com/mojolingo/brightbox-ruby-cookbook/pull/3)
